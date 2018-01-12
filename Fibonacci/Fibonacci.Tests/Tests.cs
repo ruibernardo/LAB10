@@ -18,6 +18,7 @@ namespace Fibonacci.Tests
             var generator = new FibonacciGenerator();
 
             Assert.Equal(generator.Fibonacci(6), 8);
+            
         }
     }
 }
